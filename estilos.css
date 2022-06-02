@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url("./imag/fondos/fondoPrincipal.jpg");
+    background-size: 100%;
+
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171717;
+
+}
+
+
+
+.navBar ul li a {
+
+    text-decoration: none;
+    color: rgb(255, 254, 253);
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: x-large;
+    list-style-type: none;
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 12px 5px 12px 5px;
+    color: antiquewhite;
+    margin: 20px 30px;
+}
+
+
+#imagPosition img {
+
+
+    padding: 0;
+    width: 100%;
+    height: 10%;
+
+}
+
+
+
+
+#logoContenedor {
+    background-color: #171717;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 0.5rem 1rem;
+    /*equivale a decir que un 100%*/
+    top: 0px;
+    /*para que se ponga lo mas arriba, osea no tenga mas margen*/
+    left: 0px;
+    /*para que se ponga lo mas a la izquierda, osea no tenga mas margen*/
+
+
+}
+
+.containerNovedades {
+
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.containerNovedades article {
+    text-align: center;
+    background-color: #CC9E61;
+    border: solid 1px #020304;
+    margin-inline: 10px;
+
+}
+
+#logoTamaño img {
+
+    width: 150px;
+    height: 82px;
+    ;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor ol {
+    margin-top: 1rem;
+    display: flex;
+}
+
+
+
+/*--FOOTER--*/
+.footer {
+    display: block;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #eeeeee;
+    background-color: #1b1a17;
+}
+
+footer ol {
+    list-style: none;
+    padding-left: 0;
+    background-color: #1b1a17;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials img {
+    margin-inline: 0.3rem;
+    /*margen a cada lado*/
+}
+
+.navBar ul li {
+    display: inline-block;
+    position: relative;
+
+}
+
+nav ul li ::before {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: yellow;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.5s ease-out;
+
+}
+
+.navBar ul li :hover::before {
+    width: 100%;
+
+
+}
+
+#redesSociales {
+    text-align: left;
+    list-style-type: none;
+
+}
